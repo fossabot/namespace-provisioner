@@ -4,6 +4,7 @@
 
 [![CI](https://github.com/Daimler/namespace-provisioner/workflows/CI/badge.svg)](https://github.com/Daimler/namespace-provisioner)
 [![CI Windows](https://github.com/Daimler/namespace-provisioner/workflows/CI%20Windows/badge.svg)](https://github.com/Daimler/namespace-provisioner)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fffurrer-dev%2Fnamespace-provisioner.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fffurrer-dev%2Fnamespace-provisioner?ref=badge_shield)
 
 The **Namespace Provisioner** is a Kubernetes Operator that facilitates the management of multiple namespaces on kubernetes clusters.
 You can simply annotate a Kubernetes namespace and non-application specific resources like `ImagePullSecrets`, `NetworkPolicies`, `Roles` or `RoleBindings` are automatically deployed to prepare the namespace for application deployment and testing.
@@ -256,6 +257,9 @@ Please read our [Code of Conduct](https://github.com/Daimler/daimler-foss/blob/m
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fffurrer-dev%2Fnamespace-provisioner.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fffurrer-dev%2Fnamespace-provisioner?ref=badge_large)
 
 ## Provider Information
 
